@@ -1,0 +1,26 @@
+.nav-brand{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    
+}
+.nav-items{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.hero{
+    min-height: 90vh;
+    background-color: #DFEFF9;
+}
+.hero-img{
+    align-items: center;
+    height:650px;
+    width: 500px;
+    margin: auto auto;
+}
+#himg{
+    margin: auto auto;
+}
+.hero-text{
+    margin: auto auto;
+}
