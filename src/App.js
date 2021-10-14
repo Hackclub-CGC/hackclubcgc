@@ -1,13 +1,13 @@
 // import logo from './logo.svg';
 import './App.css';
 import NavBar from './Components/NavBar'
-import Hero from './Components/hero'
+import Home from './Pages/Home'
 
 function App() {
   return (
     <>
     <NavBar />
-    <Hero />
+    <Home />
     </>
   );
 }

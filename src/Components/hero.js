@@ -1,22 +1,23 @@
 import React from 'react'
-
-
 import Button from 'react-bootstrap/Button'
 import './components.css'
 import logo from '../assets/logo.png'
 export default function hero() {
-    return (
-
-    <div className="hero">
-        <div className="hero-item">
-            <h1 > <span style={{color:"#FD0101"}}>HackClub</span> <br/>
-            <span style={{color:"#2A9CEF"}}>CGC</span>
-            </h1>
-  
-         <Button id="hero-button" > Join Us</Button>
-            </div>
-        <div className="hero-item"><img src={logo} alt="herologo" className="hero-img"></img></div>
-    </div>
+    const txtArr =["Grow","Build","Learn","Code"]
+    let changingText;
+    setInterval(() => {for (var i = 0; i < txtArr.length; i++) {
+        changingText = txtArr[i];
+      }
         
+    },1500);
+    return (
+    <>
+    <hero className="hero">
+        <img src={logo} alt="HC logo" className="hero-img"/>
+        <p style={{fontSize:"50px"}}>Let's  {changingText}  Together</p>
+        <Button id="hero-button">Join Us</Button>
+    </hero>
+    
+    </>    
     )
 }
