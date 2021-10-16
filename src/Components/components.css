@@ -17,11 +17,11 @@
     align-items: center;
     
 }
-/* @media (max-width: 800px) {
-    .hero{
-        flex-direction: column;
+ @media (max-width: 800px) {
+    .nav-items{
+        display: none;
     }
-} */
+} 
 .hero-item{
     margin: 10px;
     text-align:center;

@@ -10,16 +10,18 @@ export default function hero() {
     <>
     <hero className="hero">
         <img src={logo} alt="HC logo" className="hero-img"/>
-        <p style={{fontSize:"40px"}}>
-            Let's  
-        <Typewriter
+        <p style={{fontSize:"30px",display:"flex",flexDirection:"row"}} >
+            Let's  &nbsp; <Typewriter
          options={{
             strings: ["Grow","Build","Learn","Code"],
             autoStart: true,
             loop: true,
+            deleteSpeed:100,
+            pauseFor:1000,
           }}
-        />  
-        Together</p>
+        /> &nbsp;Together
+        
+        </p>
         <Button id="hero-button">Join Us</Button>
     </hero>
     
