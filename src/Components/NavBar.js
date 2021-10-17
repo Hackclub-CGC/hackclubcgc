@@ -17,6 +17,7 @@ export default function NavBar() {
       <Nav.Link href="#Team">Team</Nav.Link>
       <Nav.Link href="#About">About Us</Nav.Link>
       <Nav.Link href="#Resources">Resources</Nav.Link>
+      
       <Nav.Link href="#Contact">Contact Us</Nav.Link>
       
     </Nav>

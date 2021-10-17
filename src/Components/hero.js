@@ -25,6 +25,7 @@ export default function hero() {
         <Button id="hero-button">Join Us</Button>
     </hero>
     
+    
     </>    
     )
 }
