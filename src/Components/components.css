@@ -4,9 +4,7 @@
     font-weight: 600;
     
 }
-.nav-brand:hover{
-    color: red;
-}
+
 .nav-items{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -52,8 +50,8 @@
 }
 .hero-img:hover{
     align-items: center;
-    height:350px;
-    width: 300px;
+    height:300px;
+    width: 250px;
     margin: auto auto;
     padding: 20px;
     
@@ -84,6 +82,8 @@
 .footer{
     display:flex;
     flex-direction: row;
+    background-color: #5b6775;
+    margin-top: 20px;
 }
 /* .footer-items{
 
