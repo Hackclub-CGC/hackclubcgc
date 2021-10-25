@@ -4,9 +4,23 @@
     font-weight: 600;
     
 }
+.nav-brand:hover{
+    color: red;
+}
 .nav-items{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
+}
+.nav-item{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    margin:5px;
+    font-size: large;
+    color: #273444;
+}
+.nav-item:hover{
+    color: red;
 }
 /* Hero */
 .hero{

@@ -11,7 +11,7 @@ export default function NavBar() {
  
       <Navbar variant="light" sticky="top" >
       <Container>
-      <Navbar.Brand href="#home" className="nav-brand">HackClub CGC</Navbar.Brand>
+      <Navbar.Brand href="/home" className="nav-brand">HackClub CGC</Navbar.Brand>
       <Nav className="flex-row nav-items">
       <Link to="/" className="nav-item">Home</Link>
       <Link to="/Events" className="nav-item">Events</Link>
@@ -20,7 +20,6 @@ export default function NavBar() {
       <Link to="/Aboutus" className="nav-item">About Us</Link>
       <Link to="/Resources" className="nav-item">Resources</Link>
       <Link to="/Contactus" className="nav-item">Contact Us</Link>
-      
     </Nav>
     </Container>
   </Navbar>

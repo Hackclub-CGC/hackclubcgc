@@ -8,7 +8,7 @@ import Projects from './Pages/Projects'
 import Resources from './Pages/Resources'
 import Team from './Pages/Team'
 import Contactus from './Pages/Contactus'
-
+import Footer from './Components/Footer'
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 function App() {
   return (
@@ -38,6 +38,7 @@ function App() {
             <Home />
           </Route>
         </Switch>
+     <Footer/>   
     </Router>
     </>
   );
