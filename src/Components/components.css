@@ -84,7 +84,13 @@
     flex-direction: row;
     background-color: #5b6775;
     margin-top: 20px;
+    
 }
-/* .footer-items{
+.footer-items{
+margin: auto;
+}
+.footer-items:first-child{
+    width: 300px;
 
-} */
+}
+
