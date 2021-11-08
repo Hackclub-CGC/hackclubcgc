@@ -9,7 +9,7 @@ export default function NavBar() {
     return (
         <>
  
-      <Navbar variant="light" sticky="top" >
+      <Navbar variant="light" bg="light" sticky="top" >
       <Container>
       <Navbar.Brand href="/home" className="nav-brand">HackClub CGC</Navbar.Brand>
       <Nav className="flex-row nav-items">

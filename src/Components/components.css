@@ -104,15 +104,48 @@
     background-color: #5b6775;
     margin-top: 20px;
     
+    
+}
+@media (max-width: 800px) {
+    .footer{
+        display: none;
+    }
 }
 .footer-items{
 margin: auto;
-color: white;
+color: rgb(255, 255, 255);
+text-align: left;
 }
 .footer-items:first-child{
     width: 300px;
 
 }
-.ul{
-    list-style:none;
+.footer-logo{
+    height: 30px;
+    width: 25px;
+   
+}
+.footer-text{
+    text-align: center;
+}
+/* Whatwedo */
+.Wmain{
+    margin:30px;
+}
+.Wcards{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content:space-around;
+
+}
+@media (max-width: 800px) {
+    .Wcards{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.Wc-items{
+    
+    align-items: center;
 }
