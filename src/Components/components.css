@@ -137,6 +137,9 @@ text-align: left;
     flex-direction: row;
     margin: auto;
     justify-content:space-around;
+    align-items: flex-start;
+
+    
 
 }
 @media (max-width: 800px) {
@@ -147,5 +150,26 @@ text-align: left;
 }
 .Wc-items{
     
-    align-items: center;
+    align-items: flex-start;
+    border-radius: 2%;
+    min-height: 50vh;
+    padding: 20 px;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+
+}
+.ci{
+    margin: 10px 20px 20px 20px;
+    border: solid 1px;
+    min-height: 50vh;
+    padding: 10px;
+    max-width: 300px;
+    box-shadow: 10px 10px 10px grey;
+    
+}
+.cphoto{
+    width: 250px;
+    height: 200px;
+    
 }

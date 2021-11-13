@@ -5,6 +5,8 @@ export default function Footer() {
 
     const follow = ["Insta","Linkedin"]
     const followlist = follow.map((f)=> <li style={{listStyleType:"none" }}>{f}</li>)
+    
+
     return (
         <>
         <div className="footer">
