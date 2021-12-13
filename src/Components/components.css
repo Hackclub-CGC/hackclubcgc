@@ -41,7 +41,7 @@
 }
 /* Hero */
 .hero{
-    min-height: 80vh;
+    min-height: 85vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -171,5 +171,6 @@ text-align: left;
 .cphoto{
     width: 250px;
     height: 200px;
-    
+    border: solid black 1px;
+    margin-bottom: 5vh;
 }
