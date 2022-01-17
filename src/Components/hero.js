@@ -22,7 +22,8 @@ export default function hero() {
         /> &nbsp;Together
         
         </p>
-        <Button id="hero-button">Join Us</Button>
+        <Button id="hero-button"  href="https://lu.ma/hackclubcgc" target="_blank">Join Community</Button>
+        
     </hero>
     </>    
     )

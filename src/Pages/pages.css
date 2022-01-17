@@ -1,0 +1,113 @@
+/* Team */
+.tag-container{
+    height: 60vh;
+    background-color: #273444;
+    
+}
+@media (max-width: 800px) {
+    .tag-container{
+        display: none;
+        
+    }
+}
+.tagline{
+    font-size: 1in;
+    color: white;
+}
+.team-head{
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 10px;
+}
+.T-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    align-items: center;
+}
+@media (max-width: 800px) {
+    .T-main{
+        display: flex;
+        flex-direction: column;
+        
+        margin-top: 10px;
+}}
+.t-card{
+ 
+ border-radius: 2%;
+ width: 20rem;
+ height: 20rem;
+ margin: 10px auto 10px auto ;
+ text-align: center;
+ box-shadow: 10px 10px 10px grey;
+ border-top:groove 1px ;
+ border-left: groove 1px;
+ /* background-color: #273444; */
+
+}
+.team-img{
+    margin-top: 10px;
+    width: 9rem;
+    height: 22vh;
+    border-radius: 50%;
+}
+
+/* Events */
+/* .Events{
+    
+} */
+.Global-events{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 5px;
+    margin-bottom: 10px;
+}
+.G-card{
+    width: 15rem;
+    /* height: 15rem; */
+    border-radius: 2%;
+    
+    margin: 0.5rem;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    padding: 1rem .5rem 1rem .5rem;
+    
+    
+    box-shadow: 1px 10px 10px #273444;
+    
+}
+.cal-btn{
+    background-color: black;
+}
+.cal-btn:hover{
+    background-color: rgb(32, 41, 88);
+}
+#avatar{
+    border-radius: 50%;
+}
+.card-img{
+    height: 10;
+    width: 15 ;
+    border: solid 1px;
+}
+/* Resources */
+.resources{
+    text-align: center;
+    min-height: 25vh;
+   
+}
+.H-items{
+     margin-top:25vh;
+}
+.comm-button{
+    background-color: black;
+    width: 20rem;
+}
+.comm-button:hover{
+    background-color: rgb(32, 41, 88);
+}

@@ -3,11 +3,11 @@ import './components.css'
 
 
 export default function whatwedo() {
-    
+
     return (
         <div className="Wmain" >
             <h3>What We Do</h3>
-            <p><strong>We code, learn and teach together. We believe in open source and innovation. We organize bootcamps, events, community sessions and make projects</strong> </p>
+            <p>We code, learn and teach together. We believe in open source and innovation. We organize bootcamps, events, community sessions and make projects</p>
             <div className="Wcards">
                 <div className="Wc-items" style={{flexBasis:"33%"}}> <div className="ci">
                     <h4>Seminars</h4>
