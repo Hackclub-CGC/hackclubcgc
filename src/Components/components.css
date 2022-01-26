@@ -36,6 +36,10 @@
 .list-disp{
     display: none;
 }
+.list-disp1{
+    max-width:100% !important;
+    height: 100% !important;
+}
 .nav-item{
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
@@ -45,7 +49,7 @@
     color: #273444;
 }
 .nav-item:hover{
-    color: red;
+    color: rgba(212, 29, 29, 0.603);
 }
 .toggle-btn{
    display: none;
@@ -70,10 +74,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background-image: url("https://cloud-bb4xcw6z8-hack-club-bot.vercel.app/0pexels-rajendra-kumar-6768292.jpg"); */
     background-image: url(../assets/heroimg.svg);
     background-size: cover;
-
     padding-bottom: 10vh;
 }
  @media (max-width: 800px) {
@@ -138,13 +140,17 @@
     flex-direction: row;
     background-color: #273444;
     margin-top: 20px;
-    
+    flex-wrap: wrap;
+    min-height: 25vh;
     
 }
-@media (max-width: 800px) {
-    .footer{
-        display: none;
-    }
+.socialImg {
+    filter: brightness(0) invert(1);
+  }
+
+.socialImg{
+    height: 0.85cm;
+    width: 0.85cm;
 }
 .footer-items{
 margin: auto;
@@ -153,15 +159,12 @@ text-align: left;
 }
 .footer-items:first-child{
     width: 300px;
+}
 
-}
-.footer-logo{
-    height: 30px;
-    width: 25px;
-   
-}
 .footer-text{
     text-align: center;
+    color: rgb(255, 255, 255);
+    background-color:#273444 ;
 }
 /* Vision */
 .Vmain{
@@ -188,7 +191,7 @@ text-align: left;
     
     align-items: flex-start;
     border-radius: 2%;
-    height: 60vh;
+    height: 21rem;
     padding: 20 px;
     margin: auto;
     text-align: center;
@@ -207,13 +210,13 @@ text-align: left;
     
 }
 .Vlogo1{
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     margin-bottom: 5vh;
 }
 .Vlogo{
-    width: 60px;
-    height: 80px;
+    width: 50px;
+    height: 70px;
     margin-bottom: 5vh;
 }
 /* AboutUs */
@@ -222,6 +225,11 @@ text-align: left;
     min-height: 50vh;
     padding-top: 10vh;
     
+}
+.abt-logo{
+    height: 3.5rem;
+    width: 3rem;
+    margin-bottom: 2.5rem;
 }
 .about-card{
     /* font-size: large; */
@@ -239,7 +247,7 @@ text-align: left;
 @media (max-width: 800px) {
     .about-card{
        
-        padding: 1rem;
+        padding: 1.5rem;
         
     }
 }
@@ -259,6 +267,8 @@ text-align: left;
     align-items: flex-start;
     border-radius: 10px;
     padding-top: 5vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
     
 
 }
@@ -280,7 +290,7 @@ text-align: left;
 }
 .ci{
     margin: 10px 20px 20px 20px;
-    min-height: 50vh;
+    min-height: 30vh;
     padding: 10px;
     max-width: 300px;
     box-shadow: 10px 10px 10px grey;
@@ -340,14 +350,10 @@ text-align: left;
     .Gallary-cards{
         display: flex;
         flex-direction: column;
-        
 }
 }
 
-:hover.gallary-img{
-   zoom: 120%;
-}
 .gallary-img{
-    width: 25rem;
-    height: 3orem;
+    width: 20rem;
+    /* height: 10rem; */
 }

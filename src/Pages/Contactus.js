@@ -1,10 +1,20 @@
 import React from 'react'
-/* import Mailchimp from 'react-mailchimp-form' */
+import './pages.css'
 
+/* import Mailchimp from 'react-mailchimp-form' */
+import Contactpng from '../assets/contactpng.png'
 export default function Contactus() {
     return (
-        <div>
-          hjgjyfuyf
+        <div className='contact-main'>
+            <p  style={{color:"red",}}>Have a question?</p>
+            <h1 >We're here</h1>
+            <img id='con-png' src={Contactpng} alt=""></img>
+            <p >Drop an e-mail to our inbox </p>
+            <p><a className='mail-link' href="mailto:hackclubcgc@gmail.com">hackclubcgc@gmail.com</a></p>
+            {/* <cite>OR</cite>
+            <p>Connect to us </p> */}
+
+            
         </div>
     )
 }

@@ -26,6 +26,9 @@
     flex-wrap: wrap;
     margin-top: 10px;
     align-items: center;
+    padding-top: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 @media (max-width: 800px) {
     .T-main{
@@ -37,27 +40,28 @@
 .t-card{
  
  border-radius: 2%;
- width: 20rem;
+ width: 18rem;
  height: 20rem;
  margin: 10px auto 10px auto ;
  text-align: center;
  box-shadow: 10px 10px 10px grey;
- border-top:groove 1px ;
+ border-top:groove 1px;
  border-left: groove 1px;
- /* background-color: #273444; */
+ background-color: #c0c0c04f;
 
 }
 .team-img{
     margin-top: 10px;
-    width: 9rem;
+    width: 8rem;
     height: 22vh;
     border-radius: 50%;
+    border-bottom-right-radius: 3.125rem;
+    border-top-left-radius: 3.125rem;
+    
 }
 
 /* Events */
-/* .Events{
-    
-} */
+
 .Global-events{
     display: flex;
     flex-direction: row;
@@ -76,9 +80,9 @@
     color: rgb(0, 0, 0);
     background-color: #ffffff;
     padding: 1rem .5rem 1rem .5rem;
-    
-    
-    box-shadow: 1px 10px 10px #273444;
+    border-top:groove 1px;
+    border-left: groove 1px;
+    box-shadow: 10px 1px 10px #656566;
     
 }
 .cal-btn{
@@ -101,8 +105,11 @@
     min-height: 25vh;
    
 }
+li{
+    list-style:none;
+}
 .H-items{
-     margin-top:25vh;
+     margin-top:20vh;
 }
 .comm-button{
     background-color: black;
@@ -110,4 +117,28 @@
 }
 .comm-button:hover{
     background-color: rgb(32, 41, 88);
+}
+.contact-main{
+    
+    
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 4rem;
+    text-align: center;
+
+}
+/* Contact page */
+#con-png{
+    width: 50%;
+    height: 50%;
+}
+@media (max-width:800px) {
+    #con-png{
+        width: 100%;
+        height: 100%;
+    }
+}
+.mail-link{
+    text-decoration: none;
+    color: rgb(163, 6, 6);
 }

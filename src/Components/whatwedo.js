@@ -11,16 +11,15 @@ export default function whatwedo() {
             <div className="Wcards">
                 <div className="Wc-items" style={{flexBasis:"33%"}}> <div className="ci">
                     <h4>Seminars</h4>
-                    <img src='https://cloud-jk9cgimyk-hack-club-bot.vercel.app/06101073.jpg' alt='logo' className='cphoto' ></img><br/>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>  </div>
+                    <img src='https://cloud-3g87c4q0z-hack-club-bot.vercel.app/0conference.webp' alt='logo' className='cphoto' ></img><br/>
+                    </div></div>
                 <div className="Wc-items" style={{flexBasis:"33%"}}><div className="ci">
-                <h4>Projects</h4>
-                <img src='https://cloud-jk9cgimyk-hack-club-bot.vercel.app/06101073.jpg' alt='logo' className='cphoto' ></img><br/>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div></div>
+                    <h4>Community Meetups</h4>
+                    <img src='https://cloud-c00ope9v5-hack-club-bot.vercel.app/0meetup.jpg' alt='logo' className='cphoto' ></img><br/>
+                </div></div>
                 <div className="Wc-items" style={{flexBasis:"33%"}}><div className="ci">
-                <h4>Community Meetups</h4>
-                <img src='https://cloud-jk9cgimyk-hack-club-bot.vercel.app/06101073.jpg' alt='logo' className='cphoto' ></img><br/>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                    <h4>Projects</h4>
+                    <img src='https://cloud-md2w5srkb-hack-club-bot.vercel.app/0proj.jpg' alt='logo' className='cphoto' ></img><br/>
                     </div></div>
             </div>
         </div>

@@ -22,7 +22,7 @@ export default function NavBar() {
       <Nav className={"flex-row nav-items"}>
         <Link to="/" className="nav-item">Home</Link>
         <Link to="/Events" className="nav-item">Events</Link>
-        <Link to="/projects" className="nav-item">Projects</Link>
+        {/* <Link to="/projects" className="nav-item">Projects</Link> */}
         <Link to="/Team" className="nav-item">Team</Link>
         <Link to="/Resources" className="nav-item">Resources</Link>
         <Link to="/Contactus" className="nav-item">Contact Us</Link>
@@ -34,14 +34,14 @@ export default function NavBar() {
       </button>
 
   </Navbar>
-  <Nav className={toggle ? "flex-column" : "list-disp" }>
+  <Nav className={toggle ? "flex-column list-disp1" : "list-disp" }>
         <Link to="/" className="nav-item">Home</Link>
         <Link to="/Events" className="nav-item">Events</Link>
-        <Link to="/projects" className="nav-item">Projects</Link>
+       {/*  <Link to="/projects" className="nav-item">Projects</Link> */}
         <Link to="/Team" className="nav-item">Team</Link>
         <Link to="/Resources" className="nav-item">Resources</Link>
         <Link to="/Contactus" className="nav-item">Contact Us</Link>
-      </Nav>
+  </Nav>
 </>
     )
 }
