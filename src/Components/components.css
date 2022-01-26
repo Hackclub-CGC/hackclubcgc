@@ -155,7 +155,7 @@
 .footer-items{
 margin: auto;
 color: rgb(255, 255, 255);
-text-align: left;
+text-align: center;
 }
 .footer-items:first-child{
     width: 300px;
