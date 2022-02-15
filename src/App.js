@@ -19,20 +19,20 @@ function App() {
     <Router>
     <NavBar />
     <Switch>
-          <Route path="/contactus">
+          <Route exact path="/contactus">
             <Contactus />
           </Route>
-          <Route path="/resources">
+          <Route exact path="/resources">
             <Resources />
           </Route>
           
-          <Route path="/team">
+          <Route exact path="/team">
             <Team />
           </Route>
-          <Route path="/projects">
+          <Route exact path="/projects">
             <Projects />
           </Route>
-          <Route path="/Events">
+          <Route exact path="/Events">
             <Events />
           </Route>
           <Route path="/">

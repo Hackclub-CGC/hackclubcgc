@@ -1,7 +1,6 @@
 import React from 'react'
 import './pages.css'
 
-/* import Mailchimp from 'react-mailchimp-form' */
 import Contactpng from '../assets/contactpng.png'
 export default function Contactus() {
     return (
