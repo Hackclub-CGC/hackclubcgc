@@ -21,11 +21,11 @@ export default function NavBar() {
       <Navbar.Brand href="/" className="nav-brand">HackClub CGC</Navbar.Brand>
       <Nav className={"flex-row nav-items"}>
         <Link to="/" className="nav-item">Home</Link>
-        <Link to="/Events" className="nav-item">Events</Link>
+        <Link to="/events" className="nav-item">Events</Link>
         {/* <Link to="/projects" className="nav-item">Projects</Link> */}
-        <Link to="/Team" className="nav-item">Team</Link>
-        <Link to="/Resources" className="nav-item">Resources</Link>
-        <Link to="/Contactus" className="nav-item">Contact Us</Link>
+        <Link to="/team" className="nav-item">Team</Link>
+        <Link to="/resources" className="nav-item">Resources</Link>
+        <Link to="/contactus" className="nav-item">Contact Us</Link>
       </Nav>
 
       </Container>
@@ -36,11 +36,11 @@ export default function NavBar() {
   </Navbar>
   <Nav className={toggle ? "flex-column list-disp1" : "list-disp" }>
         <Link to="/" className="nav-item">Home</Link>
-        <Link to="/Events" className="nav-item">Events</Link>
+        <Link to="/events" className="nav-item">Events</Link>
        {/*  <Link to="/projects" className="nav-item">Projects</Link> */}
-        <Link to="/Team" className="nav-item">Team</Link>
-        <Link to="/Resources" className="nav-item">Resources</Link>
-        <Link to="/Contactus" className="nav-item">Contact Us</Link>
+        <Link to="/team" className="nav-item">Team</Link>
+        <Link to="/resources" className="nav-item">Resources</Link>
+        <Link to="/contactus" className="nav-item">Contact Us</Link>
   </Nav>
 </>
     )
