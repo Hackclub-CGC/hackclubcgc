@@ -32,7 +32,7 @@ function App() {
           <Route exact path="/projects">
             <Projects />
           </Route>
-          <Route exact path="/Events">
+          <Route exact path="/eavents">
             <Events />
           </Route>
           <Route path="/">
