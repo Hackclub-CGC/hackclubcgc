@@ -19,25 +19,19 @@ function App() {
     <Router>
     <NavBar />
     <Switch>
-          <Route  path="/contactus">
-            <Contactus />
-          </Route>
-          <Route  path="/resources">
-            <Resources />
-          </Route>
+          <Route exact path="/contactus" component={Contactus}/>
           
-          <Route  path="/team">
-            <Team />
-          </Route>
-          <Route  path="/projects">
-            <Projects />
-          </Route>
-          <Route  path="/eavents">
-            <Events />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
+          <Route exact path="/resources" component={Resources}/>
+         
+          
+          <Route exact path="/team" component={Team}/>
+          
+          <Route exact path="/projects" component={Projects}/>
+          
+          <Route exact path="/events" component={Events}/>
+          
+          <Route path="/" component={Home}/>
+          
         </Switch>
      <Footer/>   
     </Router>
